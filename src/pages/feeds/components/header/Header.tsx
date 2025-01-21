@@ -26,15 +26,6 @@ export function Header() {
           <Image.Source src="/assets/icon/logo.jpg" alt="웨딩로그_로고" />
         </Image>
       </Flex>
-      <Flex css={{ ml: 'auto', spaceX: '$24' }}>
-        <a
-          target="_blank"
-          rel="noreferrer noopener"
-          href={link['선물목록 노션 링크']}
-        >
-          <PaperAirplane />
-        </a>
-      </Flex>
     </Flex.CenterVertical>
   );
 }
